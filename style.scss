@@ -368,7 +368,7 @@ h5 {
 
 /////////////////////////////COMPOSE SECTION/////////////////////////////////////////
 .compose {
-  background-color:#F9F9F9 ;
+  background-color: #F9F9F9;
   padding-top: 50px;
   padding-bottom: 50px;
 
@@ -384,15 +384,18 @@ h5 {
     text-transform: uppercase;
   }
 }
-.headerRight{
+
+.headerRight {
   text-align: right;
 }
-.composeline{
+
+.composeline {
 
   width: 190px;
   height: 10px;
-  background-color:$primary-color;
+  background-color: $primary-color;
 }
+
 .composeBoxes {
   display: flex;
   margin-left: 18%;
@@ -410,25 +413,20 @@ h5 {
   width: 300px;
   border: 2px solid #b8e7da;
   font-size: 32px;
-
   padding: 15px;
-  border-radius: 0;
   background-color: white;
   position: relative;
-  color: #666666;
+  color: #e0e0e0;
 
   dd {
     display: none;
-    font-size: 20px;
-    color: black;
+    font-size: 34px;
     text-align: left;
     position: absolute;
     top: 60px;
-    left: 0;
-    background-color: white;
-    border: 1px solid #c8c8c8;
+    left: -2px;
     z-index: 3;
-    padding-top: 10px;
+    color: #666666;
   }
   dt {
     span {
@@ -436,15 +434,23 @@ h5 {
 
     }
   }
-  li {
+  ul {
+    background-color: white;
+    margin: 0;
+    border: 2px solid $primary-color;
 
-    padding-left: 15px;
-    padding-right: 100px;
-    padding-top: 5px;
-    margin-bottom: 10px;
-    max-width: 320px;
-    cursor: pointer;
   }
+  li {
+    list-style: none;
+    cursor: pointer;
+    width: 330px;
+    background-color: white;
+    text-align: left;
+  }
+}
+
+.composeDropdown li:hover {
+  color: $primary-color;
 }
 
 .composeDropdown:first-of-type {
@@ -459,7 +465,7 @@ h5 {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 12px 8px 0 8px;
+  border-width: 15px 8px 0 8px;
   border-color: #27c7ac transparent transparent transparent;
   position: absolute;
   right: -5px;
@@ -485,6 +491,7 @@ h5 {
   input[type=checkbox]:checked + label {
     background: url(pictures/form_ok.jpg) no-repeat center;
   }
+
   p {
     margin-left: 70px;
     font-size: 30px;
@@ -528,7 +535,7 @@ h5 {
     justify-content: space-between;
     align-items: center;
     border-top: 1px solid black;
-    color:$primary-color;
+    color: $primary-color;
   }
 }
 
@@ -545,6 +552,7 @@ h5 {
   justify-content: center;
   align-content: center;
 }
+
 .rightElement input {
   text-align: center;
   display: block;
@@ -560,7 +568,8 @@ h5 {
   padding-right: 30px;
   padding-left: 30px;
 }
-//////////////////////////////////////////////////////////////////////
+
+////////////////////////////CONTACT SECTION//////////////////////////////////////////
 .kontakt {
   text-align: center;
 }
