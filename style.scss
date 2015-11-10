@@ -365,6 +365,201 @@ h5 {
 .plan a:hover {
   background-color: darkgrey;
 }
+
+/////////////////////////////COMPOSE SECTION/////////////////////////////////////////
+.compose {
+  background-color:#F9F9F9 ;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.hContainerCompose {
+  display: flex;
+  margin-left: 18%;
+  margin-right: 18%;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  h4 {
+    text-transform: uppercase;
+  }
+}
+.headerRight{
+  text-align: right;
+}
+.composeline{
+
+  width: 190px;
+  height: 10px;
+  background-color:$primary-color;
+}
+.composeBoxes {
+  display: flex;
+  margin-left: 18%;
+  margin-right: 18%;
+  justify-content: space-between;
+}
+
+.composeBoxLeft {
+  width: 30%;
+
+}
+
+.composeDropdown {
+  height: 40px;
+  width: 300px;
+  border: 2px solid #b8e7da;
+  font-size: 32px;
+
+  padding: 15px;
+  border-radius: 0;
+  background-color: white;
+  position: relative;
+  color: #666666;
+
+  dd {
+    display: none;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: white;
+    border: 1px solid #c8c8c8;
+    z-index: 3;
+    padding-top: 10px;
+  }
+  dt {
+    span {
+      color: #e0e0e0;
+
+    }
+  }
+  li {
+
+    padding-left: 15px;
+    padding-right: 100px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    max-width: 320px;
+    cursor: pointer;
+  }
+}
+
+.composeDropdown:first-of-type {
+  margin-bottom: 20px;
+}
+
+.composeDropdown:last-of-type {
+  margin-top: 20px;
+}
+
+.greenArrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 12px 8px 0 8px;
+  border-color: #27c7ac transparent transparent transparent;
+  position: absolute;
+  right: -5px;
+  top: 5px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.checkBoxTransport {
+  width: 50px;
+  position: relative;
+  display: inline-block;
+  label {
+    cursor: pointer;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    left: 0;
+    background: white;
+    border: 1px solid $primary-color;
+  }
+  input[type=checkbox]:checked + label {
+    background: url(pictures/form_ok.jpg) no-repeat center;
+  }
+  p {
+    margin-left: 70px;
+    font-size: 30px;
+  }
+
+}
+
+.composeBoxMiddle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.composeBoxRight {
+  width: 30%;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  padding: 10px;
+  .leftData {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-right: 1px solid black;
+  }
+  .rightData {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    color: $primary-color;
+
+  }
+  .bottomData {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid black;
+    color:$primary-color;
+  }
+}
+
+.composeFooter {
+  display: flex;
+  margin-left: 18%;
+  margin-right: 18%;
+  justify-content: space-between;
+}
+
+.rightElement {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.rightElement input {
+  text-align: center;
+  display: block;
+  margin: 10px 0px 0px 0px;
+  width: 290px;
+  font-size: 30px;
+  background-color: $primary-color;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 50px;
+  border-radius: 10px;
+  color: white;
+  padding-right: 30px;
+  padding-left: 30px;
+}
 //////////////////////////////////////////////////////////////////////
 .kontakt {
   text-align: center;

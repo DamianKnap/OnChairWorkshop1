@@ -161,15 +161,22 @@
 
 <section class="compose area">
     <div class="hContainerCompose">
-        <h4>Skomponuj swoje krzesło</h4>
-
-        <h4>Podsumowanie</h4>
+        <div class="headerLeft">
+            <h4>Skomponuj swoje krzesło</h4>
+            <div class="composeline"></div>
         </div>
+        <div class="headerRight">
+            <h4>Podsumowanie</h4>
+            <div class="composeline"></div>
+        </div>
+    </div>
 
-<div class="composeBoxes">
+    <div class="composeBoxes">
         <div class="composeBoxLeft">
             <dl class="composeDropdown">
-                <dt><span>Wybierz rodzaj</span><div class="green-arrow"></div></dt>
+                <dt><span>Wybierz rodzaj</span>
+                <div class="greenArrow"></div>
+                </dt>
                 <dd>
                     <ul>
                         <li data-chair="Clair" data-chair-price="2500">Clair</li>
@@ -181,7 +188,9 @@
             </dl>
 
             <dl class="composeDropdown">
-                <dt><span>Wybierz kolor</span><div class="green-arrow"></div></dt>
+                <dt><span>Wybierz kolor</span>
+                <div class="greenArrow"></div>
+                </dt>
                 <dd>
                     <ul>
                         <li data-color="Czerwony" data-color-price="0">Czerwony</li>
@@ -192,7 +201,9 @@
             </dl>
 
             <dl class="composeDropdown">
-                <dt><span>Wybierz materiał</span><div class="green-arrow"></div></dt>
+                <dt><span>Wybierz materiał</span>
+                <div class="greenArrow"></div>
+                </dt>
                 <dd>
                     <ul>
                         <li data-fabric="Skóra" data-fabric-price="1000">Skóra</li>
@@ -202,10 +213,6 @@
             </dl>
 
 
-            <div class="checkbox check-box">
-                <input type="checkbox" id="transport" data-transport-price="400">
-                <label for="transport">Transport</label>
-            </div>
         </div>
 
         <div class="composeBoxMiddle">
@@ -213,29 +220,44 @@
         </div>
 
         <div class="composeBoxRight">
-            <table>
-                <tr>
-                    <td id="chair-name">Twój fotel</td>
-                    <td id="chair-price"></td>
-                </tr>
-                <tr>
-                    <td id="chair-color"></td>
-                    <td id="color-price"></td>
-                </tr>
-                <tr>
-                    <td id="chair-fabric"></td>
-                    <td id="fabric-price"></td>
-                </tr>
-                <tr>
-                    <td id="transport-yes"><p>Transport</p></td>
-                    <td id="transport-price"><p>0</p></td>
-                </tr>
-                <tr>
-                    <td>SUMA</td>
-                    <td id="chair-sum"></td>
-                </tr>
-            </table>
+            <div class="leftData">
+                <p id="chairName">Fotel</p>
 
+                <p id="chairColor">Kolor</p>
+
+                <p id="chairFabric">Tkanina</p>
+
+                <p id="transportAgree">Transport</p>
+
+            </div>
+            <div class="rightData">
+                <p id="chairPrice">0</p>
+
+                <p id="colorPrice">0</p>
+
+                <p id="fabricPrice">0</p>
+
+                <p id="transportPrice">0</p>
+
+            </div>
+            <div class="bottomData">
+                <p>SUMA</p>
+
+                <p id="chairSum">0</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="composeFooter">
+        <div class="leftElement">
+            <div class="checkBoxTransport checkBoxCompose">
+                <input type="checkbox" id="transport" data-transport-price="400">
+                <label for="transport"></label>
+
+                <p>Transport</p>
+            </div>
+        </div>
+        <div class="rightElement">
             <input type="submit" value="ZAMAWIAM">
         </div>
     </div>
@@ -258,14 +280,14 @@
 
 
             <div class="checkboxAgree">
-                <input type="checkbox" id="checkboxAgreeInput" name="" />
+                <input type="checkbox" id="checkboxAgreeInput" name=""/>
                 <label for="checkboxAgreeInput"></label>
             </div>
 
             <p>Wyrażam zgodę na przetważanie danych osobowych.</p>
         </div>
         <form>
-        <input type="submit" value="Wyślij">
+            <input type="submit" value="Wyślij">
         </form>
     </div>
 </section>
@@ -275,10 +297,10 @@
 
     <p class="secLine">sit <span class="colorer2">on</span> chair</p>
 
-    <a href="coderslab.pl"><img src="pictures/twitter.png"/></a>
-    <a href="coderslab.pl"><img src="pictures/vimeo.png"/></a>
-    <a href="coderslab.pl"><img src="pictures/flickr.png"/></a>
-    <a href="coderslab.pl"><img src="pictures/pinterest.png"/></a>
+    <a href="http://www.coderslab.pl"><img src="pictures/twitter.png"/></a>
+    <a href="http://www.coderslab.pl"><img src="pictures/vimeo.png"/></a>
+    <a href="http://www.coderslab.pl"><img src="pictures/flickr.png"/></a>
+    <a href="http://www.coderslab.pl"><img src="pictures/pinterest.png"/></a>
 </footer>
 
 </body>
