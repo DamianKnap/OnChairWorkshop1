@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Sit On Chair</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="jquery-2.1.4.js"></script>
     <script src="app.js"></script>
@@ -157,6 +157,88 @@
         <a href="coderslab.pl">Dołącz</a>
     </div>
 
+</section>
+
+<section class="compose area">
+    <div class="hContainerCompose">
+        <h4>Skomponuj swoje krzesło</h4>
+
+        <h4>Podsumowanie</h4>
+        </div>
+
+<div class="composeBoxes">
+        <div class="composeBoxLeft">
+            <dl class="composeDropdown">
+                <dt><span>Wybierz rodzaj</span><div class="green-arrow"></div></dt>
+                <dd>
+                    <ul>
+                        <li data-chair="Clair" data-chair-price="2500">Clair</li>
+                        <li data-chair="Selena" data-chair-price="2200">Selena</li>
+                        <li data-chair="Margarita" data-chair-price="2000">Margarita</li>
+
+                    </ul>
+                </dd>
+            </dl>
+
+            <dl class="composeDropdown">
+                <dt><span>Wybierz kolor</span><div class="green-arrow"></div></dt>
+                <dd>
+                    <ul>
+                        <li data-color="Czerwony" data-color-price="0">Czerwony</li>
+                        <li data-color="Czarny" data-color-price="0">Czarny</li>
+                        <li data-color="Pomarańczowy" data-color-price="0">Pomarańczowy</li>
+                    </ul>
+                </dd>
+            </dl>
+
+            <dl class="composeDropdown">
+                <dt><span>Wybierz materiał</span><div class="green-arrow"></div></dt>
+                <dd>
+                    <ul>
+                        <li data-fabric="Skóra" data-fabric-price="1000">Skóra</li>
+                        <li data-fabric="Tkanina" data-fabric-price="0">Tkanina</li>
+                    </ul>
+                </dd>
+            </dl>
+
+
+            <div class="checkbox check-box">
+                <input type="checkbox" id="transport" data-transport-price="400">
+                <label for="transport">Transport</label>
+            </div>
+        </div>
+
+        <div class="composeBoxMiddle">
+            <img src="pictures/red_chair.png">
+        </div>
+
+        <div class="composeBoxRight">
+            <table>
+                <tr>
+                    <td id="chair-name">Twój fotel</td>
+                    <td id="chair-price"></td>
+                </tr>
+                <tr>
+                    <td id="chair-color"></td>
+                    <td id="color-price"></td>
+                </tr>
+                <tr>
+                    <td id="chair-fabric"></td>
+                    <td id="fabric-price"></td>
+                </tr>
+                <tr>
+                    <td id="transport-yes"><p>Transport</p></td>
+                    <td id="transport-price"><p>0</p></td>
+                </tr>
+                <tr>
+                    <td>SUMA</td>
+                    <td id="chair-sum"></td>
+                </tr>
+            </table>
+
+            <input type="submit" value="ZAMAWIAM">
+        </div>
+    </div>
 </section>
 
 <section class="kontakt">
